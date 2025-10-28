@@ -33,16 +33,19 @@ public class NaniwaHarukas {
       
       int sum = (n*(2*a1 + (n-1)*d))/2;
       
-      System.out.println("\n\nSum of sequence: " + sum);
-      
       if(sum == 60){
+          System.out.println("\n\nSum of sequence: " + sum);
           System.out.println("\nWelcome to the Observation Deck.\n\n\"It's a beautiful sunset, isn't it?\"");
       }
       else if(sum != 60 && sum%5 == 0 && sum%3 == 0){
+          System.out.println("\n\nSum of sequence: " + sum);
           System.out.println("\nWelcome to the Souvenir Shop.");
       }
       else if(sum != 60 && sum%3 == 0){
+          System.out.println("\n\nSum of sequence: " + sum);
           System.out.println("\nWelcome to the Restaurant and Sky Garden.");
       }
+      else{
+          System.out.println("\n\nSum of sequence: " + sum);
   }
 }
